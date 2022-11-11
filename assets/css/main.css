@@ -694,6 +694,17 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image.fit.thumb:hover{
+			opacity: 70%;
+			
+			-moz-transition: opacity 0.2s ease-in-out;
+				-webkit-transition: opacity 0.2s ease-in-out;
+				-ms-transition: opacity 0.2s ease-in-out;
+				transition: opacity 0.2s ease-in-out;
+				border-radius: 0.35em;
+				border: solid 3px rgba(255, 255, 255, 0.5);
+		}
+
 		.image.main {
 			display: block;
 			margin: 2.5rem 0;
@@ -1541,7 +1552,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.325s ease-in-out, -webkit-transform 0.325s ease-in-out;
 			-ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
-			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
+			padding: 1rem 1rem 1rem 1rem ;
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
